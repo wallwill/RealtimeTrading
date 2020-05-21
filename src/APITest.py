@@ -8,7 +8,7 @@ d = dt.now()
 seven = d - timedelta(days=7)
 unixto = str(int(time.mktime(d.timetuple())))
 unixfrom = str(int(time.mktime(seven.timetuple())))
-url= 'https://finnhub.io/api/v1/forex/candle?symbol=OANDA:EUR_USD&resolution=D&from='+unixfrom+'&to='+unixto+'&token=br0ht3frh5radq31f800'
+url= 'https://finnhub.io/api/v1/forex/candle?symbol=OANDA:EUR_USD&resolution=D&from='+unixfrom+'&to='+unixto+'&token='
 
 print(url)
 
