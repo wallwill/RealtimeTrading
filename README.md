@@ -1,4 +1,4 @@
 # WallFin
-Realtime Trading Platform using AI's and machine learning
+Realtime Trading Platform using machine learning
 
 ![](/diagrams/Concept.png)
